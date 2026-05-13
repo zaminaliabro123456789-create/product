@@ -1,0 +1,84 @@
+		
+	
+
+<!DOCTYPE html>
+	<html long="en">
+	<head>
+	<title>
+	home
+	</title>
+	<style>
+
+	    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 60px;
+      justify-content: flex-start;
+      padding: 20px;
+    }
+    
+    .product-card{
+      width: 150px;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      background: lightblue;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+		
+    } 
+	 .product-card img {
+      object-fit: cover;
+      width: 100%;
+      height: 230px;
+      border-radius: 8px;
+    }
+
+
+	body {background-color:black;}
+
+
+	.container{display: flex;
+	  background-color: azure;  
+	 flex-wrap: wrap;
+	justify-content: space-around;}
+
+	.item{
+    width: 17px;
+    height: 30px;
+    flex-basis: 15%;
+	margin: 10px;
+	text-align: center;}
+
+	@media(max-width: 600px){
+	.item{
+
+
+    flex-basis: 100%;}}
+
+
+	</style>
+	<meta charst="UTF 8">
+	<link rel="stylesheet"href="task erning.css">
+	</head>
+	<body>
+	
+	<div class="container">	
+	<div class="item"><a href="about.html">about</a></div>			
+	<div class="item"><a href="product2.html">product</a></div>
+	<div class="item"><a href="contect.html">contect</a></div>
+	</div>
+	 
+	<section class="product-grid">
+	<div class="product-card">
+	<img src="car.jpg"alt="product1"/></img>
+</div>	
+	<div class="product-card">
+	<img src="rob.jpg"alt="product1"/></img>
+</div>
+	<div class="product-card">
+	<img src="bike.jpg"alt="product1"/></img>
+</div>
+	</section>	
+	
+	</body>
+</html>

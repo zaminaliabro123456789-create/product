@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lag="en">
+<head>
+
+	<h1>product section</h1>
+  <title>Products</title>
+  <style>
+	html{
+	background-color:pink;}
+
+
+
+	h1{
+	text-align:center;
+	color:blue;
+	box-shodow: 0 2px 8px rgba(0,0,0,0.1);
+	background-color:yellow;
+	padding35%;
+	margin:40px;
+	
+	}	
+
+
+
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 60px;
+      justify-content: flex-start;
+      padding: 20px;
+    }
+    
+    .product-card {
+      width: 150px;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      background: lightblack;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+		
+    } 
+    
+    .product-card img {
+      object-fit: cover;
+      width: 100%;
+      height: 200px;
+      border-radius: 8px;
+    }
+    
+    .product-card h3 {
+      margin: 15px 0 10px 0;
+      font-size: 18px;
+    }
+    
+    .product-card p {
+      color: #333;
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    
+    .product-card button {
+
+	 background-color: lightblue;
+    margin-bottom: 15px;
+     
+    }
+    
+    .product-card button:hover {
+      background-color: #0056b3;
+    }
+    
+    @media (max-width: 600px) {
+      .product-card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="product-grid">
+    <div class="product-card">
+      <img src="car.jpg" alt="product1">
+      <h3>Car</h3>
+      <p>$20.99</p>
+      <button>Add to Cart</button>
+</div>
+    
+    <div class="product-card">
+      <img src="car2.jpg" alt="product2">
+      <h3>Car 310</h3>
+      <p>$25.99</p>
+      <button>Add to Cart</button>
+</div>
+	 <div class="product-card">
+      <img src="bik2.jpg" alt="product2">
+      <h3>bik2</h3>
+      <p>$29.99</p>
+      <button>Add to Cart</button>
+</div>
+	 <div class="product-card">
+      <img src="bike.jpg" alt="product2">
+      <h3>bike 310</h3>
+      <p>$35.99</p>
+      <button>Add to Cart</button>
+</div>
+	 <div class="product-card">
+      <img src="game.jpg" alt="product2">
+      <h3>game</h3>
+      <p>$10.99</p>
+      <button>Add to Cart</button>
+</div>
+	 <div class="product-card">
+      <img src="rob.jpg" alt="product2">
+      <h3>rob</h3>
+      <p>$59.99</p>
+      <button>Add to Cart</button>
+</div>
+		 <div class="product-card">
+      <img src="rob2.jpg" alt="product2">
+      <h3>rob R/C</h3>
+      <p>$99.99</p>
+      <button>Add to Cart</button>
+</div>	
+
+  </section>
+</body>
+</html>
